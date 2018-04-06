@@ -14,7 +14,6 @@ public class Application {
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         ImagesFromMongoToCloud moveService = applicationContext.getBean(ImagesFromMongoToCloud.class);
-
         try {
             moveService.run();
         } catch (IOException e) {
