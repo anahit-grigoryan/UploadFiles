@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76820413-78d6-4948-8ccc-127fe28b0610" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/src/service/FromMongoToCloud.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/UploadFiles.iml" afterPath="$PROJECT_DIR$/UploadFiles.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/Application.java" afterPath="$PROJECT_DIR$/src/main/java/src/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/config/AppConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/dao/cloud/CloudStorage.java" afterPath="$PROJECT_DIR$/src/main/java/src/dao/CloudStorageRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/dao/cloud/new_version.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/dao/grid_fs/config/GridFsFuctory.java" afterPath="$PROJECT_DIR$/src/main/java/src/dao/GridFsFuctory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/dao/grid_fs/repo/GridFSRepository.java" afterPath="$PROJECT_DIR$/src/main/java/src/dao/GridFSRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/service/ImagesFromMongoToCloud.java" afterPath="$PROJECT_DIR$/src/main/java/src/service/CloudMigration.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/Application.class" afterPath="$PROJECT_DIR$/target/classes/src/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/config/AppConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/dao/cloud/CloudStorage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/dao/cloud/new_version.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/dao/grid_fs/config/GridFsFuctory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/dao/grid_fs/repo/GridFSRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/src/service/ImagesFromMongoToCloud.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudStorageRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloudStorageRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/src/dao/CloudStorageRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -83,6 +61,26 @@
                 <element signature="imports" expanded="true" />
                 <element signature="initializer##0;class#CloudStorageRepository#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/main/java/src/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/src/service/CloudMigration.java" />
         <option value="$PROJECT_DIR$/src/main/java/src/service/FromMongoToCloud.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -241,41 +240,6 @@
             <path>
               <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -470,7 +434,7 @@
       <workItem from="1522821037249" duration="4272000" />
       <workItem from="1522828530131" duration="21435000" />
       <workItem from="1522994285354" duration="17173000" />
-      <workItem from="1523025061292" duration="171000" />
+      <workItem from="1523025061292" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="'test'">
       <created>1523001039864</created>
@@ -486,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523002139166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;formatting&quot;">
+      <created>1523025248147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523025248148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66988000" />
+    <option name="totallyTimeSpent" value="67173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -859,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/src/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -927,6 +890,22 @@
             <element signature="imports" expanded="true" />
             <element signature="initializer##0;class#CloudStorageRepository#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
