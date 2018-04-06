@@ -34,6 +34,7 @@ public class CloudStorage {
 
             storage = new com.google.api.services.storage.Storage(httpTransport, JSON_FACTORY, credential);
 
+
         } catch (Exception e) {
 
             logger.info("Something was erong while initializing Cloud Storage" + e.getMessage());
