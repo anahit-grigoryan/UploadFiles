@@ -1,18 +1,16 @@
-package src.dao.grid_fs.repo;
+package src.dao;
 
 import com.mongodb.DBCursor;
 import com.mongodb.gridfs.GridFS;
 import com.mongodb.gridfs.GridFSDBFile;
 import com.mongodb.gridfs.GridFSInputFile;
 import org.bson.types.ObjectId;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.*;
 
 public class GridFSRepository {
 
-    @Autowired
-    private GridFS gridFS;
+    private GridFS gridFS = GridFsFuctory.create("localhost",27017,"myFiles","fs");
 
     public InputStream getFileInputStream(ObjectId objectId) {
 
@@ -28,10 +26,9 @@ public class GridFSRepository {
         return iterator;
     }
 
-    public void addFile(InputStream inputStream, String fileName) {
-
-        GridFSInputFile test = this.gridFS.createFile(inputStream, fileName);
-
+    public void addFile(File file, String fileName) throws IOException {
+        GridFSInputFile test = this.gridFS.createFile(file);
+        test.setFilename(fileName);
         test.save();
     }
 }

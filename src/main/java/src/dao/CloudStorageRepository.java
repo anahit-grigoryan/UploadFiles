@@ -1,4 +1,4 @@
-package src.dao.cloud;
+package src.dao;
 
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
@@ -14,11 +14,11 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.logging.Logger;
 
-public class CloudStorage {
+public class CloudStorageRepository {
 
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
 
-    private static final Logger logger = Logger.getLogger(CloudStorage.class.getName());
+    private static final Logger logger = Logger.getLogger(CloudStorageRepository.class.getName());
 
     private static HttpTransport httpTransport;
 

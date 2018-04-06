@@ -1,22 +1,17 @@
 package src;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import src.config.AppConfig;
-import src.service.ImagesFromMongoToCloud;
+import src.service.CloudMigration;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class Application {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
 
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-        ImagesFromMongoToCloud moveService = applicationContext.getBean(ImagesFromMongoToCloud.class);
+        CloudMigration migrationService = new CloudMigration();
         try {
-            moveService.run();
-        } catch (IOException e) {
+            migrationService.run();
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }
