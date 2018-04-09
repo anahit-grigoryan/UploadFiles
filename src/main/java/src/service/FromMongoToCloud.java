@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 public class FromMongoToCloud {
 
 
-    private String BUCKET_NAME = "my-first-bucket-11";
+    private String BUCKET_NAME = System.getenv("GOOGLE_BUCKET_NAME");//"my-first-bucket-11";
 
     private GridFSRepository gridFSRepo = new GridFSRepository();
 
