@@ -14,8 +14,6 @@ public class CloudMigration {
 
     private ExecutorService executorService = Executors.newFixedThreadPool(32);
 
-    private static final Logger logger = Logger.getLogger(CloudMigration.class.getName());
-
     FromMongoToCloud fromMongoToCloud = new FromMongoToCloud();
 
     private GridFSRepository gridFSRepo = new GridFSRepository();
