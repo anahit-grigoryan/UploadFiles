@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76820413-78d6-4948-8ccc-127fe28b0610" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/dao/GridFSRepository.java" afterPath="$PROJECT_DIR$/src/main/java/src/dao/GridFSRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/service/FromMongoToCloud.java" afterPath="$PROJECT_DIR$/src/main/java/src/service/FromMongoToCloud.java" />
+      <change beforePath="$PROJECT_DIR$/temp.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +48,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridFSRepository.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloudStorageRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/src/dao/CloudStorageRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridFSRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/src/dao/GridFSRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -207,6 +216,36 @@
               <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UploadFiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UploadFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +449,7 @@
       <workItem from="1522828530131" duration="21435000" />
       <workItem from="1522994285354" duration="17173000" />
       <workItem from="1523025061292" duration="1001000" />
-      <workItem from="1523255595488" duration="1603000" />
+      <workItem from="1523255595488" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="'test'">
       <created>1523001039864</created>
@@ -454,11 +493,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523025648423</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add constants in environment variables">
+      <created>1523274407983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523274407983</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69421000" />
+    <option name="totallyTimeSpent" value="69566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -504,7 +550,8 @@
     <MESSAGE value="'test'" />
     <MESSAGE value="&quot;delete new_version file&quot;" />
     <MESSAGE value="&quot;formatting&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;formatting&quot;" />
+    <MESSAGE value="add constants in environment variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="add constants in environment variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,16 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/src/dao/CloudStorageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -871,6 +908,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/src/dao/CloudStorageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding />
         </state>
       </provider>
