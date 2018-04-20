@@ -8,6 +8,7 @@ import src.dao.GridFSRepository;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class FromMongoToCloud {
@@ -23,13 +24,13 @@ public class FromMongoToCloud {
 
     public StorageObject moveImage(DBObject dbObject) throws IOException {
 
-        logger.info("GET IMAGE FROM MONGO. ID: " + dbObject.get("_id") + dbObject.get("filename"));
+        logger.log(Level.INFO,"GET IMAGE FROM MONGO. ID: " + dbObject.get("_id") + dbObject.get("filename"));
 
         String contentType = dbObject.get("contentType") != null ? (String) dbObject.get("contentType") : "image/jpg";
 
         InputStream inputStream = gridFSRepo.getFileInputStream((ObjectId) dbObject.get("_id"));
 
-        logger.info("SAVE IMAGE TO CLOUD STORAGE. IMAGE ID: " + dbObject.get("_id") +dbObject.get("filename"));
+        logger.log(Level.INFO,"SAVE IMAGE TO CLOUD STORAGE. IMAGE ID: " + dbObject.get("_id") +dbObject.get("filename"));
 
         StorageObject storageObject = cloudStorage.uploadFile(BUCKET_NAME,inputStream, (String) dbObject.get("filename"),contentType);
 

@@ -12,6 +12,7 @@ import com.google.api.services.storage.model.StorageObject;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class CloudStorageRepository {
@@ -37,7 +38,7 @@ public class CloudStorageRepository {
 
         } catch (Exception e) {
 
-            logger.info("Something was erong while initializing Cloud Storage" + e.getMessage());
+            logger.log(Level.SEVERE,"Error in static initialization block", e.getMessage());
 
         }
 
